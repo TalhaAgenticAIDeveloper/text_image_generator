@@ -5,7 +5,8 @@ import io
 
 # Function to generate image
 def generate_image(prompt):
-    API_KEY = "8773408815b3df1c64b47ad4c943faa116cc639a9c9ec72b68c89d9be66e3d4330f1589c6735ea04a3319824216bb98e"
+    # API_KEY = "8773408815b3df1c64b47ad4c943faa116cc639a9c9ec72b68c89d9be66e3d4330f1589c6735ea04a3319824216bb98e"
+    API_KEY = "13681c84c45c8baa6ad397662173fe7a631a9c05774805888e81d1111f794e526718f26946fedd994267c55dd6bbca9e"
     
     with st.spinner('🎨 Generating your image... This might take a moment'):
         r = requests.post(
